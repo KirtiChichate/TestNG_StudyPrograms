@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TrialRunningMethod">
+    <classes>
+      <class name="testNG_SerialParallel_Study.Serial_ParallelClass2"/>
+      <class name="testNG_SerialParallel_Study.Serial_ParallelClass1"/>
+      <class name="testNG_SerialParallel_Study.Serial_ParallelClass3"/>
+    </classes>
+  </test> <!-- TrialRunningMethod -->
+</suite> <!-- Suite -->

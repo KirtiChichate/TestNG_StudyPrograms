@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Keyword_Combine_Class">
+    <classes>
+      <class name="testNG_Keywords.Keyword_depends_On_Methods"/>
+      <class name="testNG_Keywords.Keyword_Enabled"/>
+      <class name="testNG_Keywords.Keyword_InvocationCount"/>
+    </classes>
+  </test> <!-- Keyword_Combine_Class -->
+</suite> <!-- Suite -->

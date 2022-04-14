@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="KiteAppWith_POM_TestNGCrossBrowser_Chrome_RunSerially">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="testNG_POMwithKite_App.KiteAppWith_POM_TestNGCrossBrowser"/>
+    </classes>
+  </test> <!-- KiteAppWith_POM_TestNGCrossBrowser_RunSerially -->
+<test thread-count="5" name="KiteAppWith_POM_TestNGCrossBrowser_Microsoft_RunSerially">
+    <parameter name="BrowserName" value="MicrosoftEdge"/>
+    <classes>
+      <class name="testNG_POMwithKite_App.KiteAppWith_POM_TestNGCrossBrowser"/>
+    </classes>
+  </test> <!-- KiteAppWith_POM_TestNGCrossBrowser_RunSerially -->
+</suite> <!-- Suite -->

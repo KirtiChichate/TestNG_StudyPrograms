@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="CombineGroupingOfClass1_Class2">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNG_Grouping_Concept.GroupingClass2"/>
+      <class name="testNG_Grouping_Concept.GroupingClass1"/>
+    </classes>
+  </test> <!-- CombineGroupingOfClass1_Class2 -->
+</suite> <!-- Suite -->

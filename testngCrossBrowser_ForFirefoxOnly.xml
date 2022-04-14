@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="CrossBrowser_ForFirefoxOnly">
+    <parameter name="BrowserName" value="firefox"/>
+    <classes>
+     <class name="testNg_CrossBrowser_Study.Cross_Chrome_Firefox_browser"/>
+    </classes>
+  </test> <!-- CrossBrowser_ForFirefoxOnly -->
+</suite> <!-- Suite -->
+
+
+<!--This Xml code launch only firefox whereas in the class i coded for two browser but here i provide one parameter and its value is only firefox so its launch only firefox -->

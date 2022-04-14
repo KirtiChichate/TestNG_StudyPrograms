@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="1RunSerially_SerialParallel1_2_3">
+    <classes>
+      <class name="testNG_SerialParallel_Study.Serial_ParallelClass1"/>
+    </classes>
+  </test> <!-- RunSerially_SerialParallel1_2_3 -->
+<test name="2RunSerially_SerialParallel1_2_3">
+    <classes>
+      <class name="testNG_SerialParallel_Study.Serial_ParallelClass2"/>
+    </classes>
+  </test> <!-- RunSerially_SerialParallel1_2_3 -->
+<test name="3RunSerially_SerialParallel1_2_3">
+    <classes>
+      <class name="testNG_SerialParallel_Study.Serial_ParallelClass3"/>
+    </classes>
+  </test> <!-- RunSerially_SerialParallel1_2_3 -->
+</suite> <!-- Suite -->
